@@ -1,0 +1,19 @@
+{
+  "name": "proxy-server",
+  "version": "0.0.1",
+  "description": "A simple proxy server to avoid CORS issues",
+  "main": "index.js",
+  "author": {
+    "name": "Alberto Luebbert M.",
+    "email": "alberto@ideashappy.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
